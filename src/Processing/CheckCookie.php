@@ -23,16 +23,14 @@ class CheckCookie
         $this->arrCookie = $cookie;
         $this->key = $key;
         $this->testCoockie = $testCoockie;
-
-
     }
+
     public function checkCookie()
     {
         $check = false;
-        if ($this->arrCookie[$this->key] === $this->testCoockie ){
+        if ($this->arrCookie[$this->key] === $this->testCoockie) {
             $check = true;
         }
         return $check;
     }
-
 }

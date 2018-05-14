@@ -7,7 +7,10 @@
  */
 namespace Socket\Processing;
 
-class keyStorage
+class KeyStorage
 {
-
+    public function __construct()
+    {
+        
+    }
 }
